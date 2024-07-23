@@ -1,0 +1,80 @@
+/** App **/
+.App {
+  text-align: center;
+  color:aliceblue;
+}
+
+
+/** body **/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Ariel, Helvetica, sans-serif;
+  background-color: #22241e;
+}
+
+/** navbar **/
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: #22241e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/** link **/
+.links a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 3px solid white;
+  padding-bottom: 2px;
+  margin: 10px;
+}
+
+/** input, password **/
+input,
+password {
+  font-family: "Nunito", sans-serif;
+}
+
+/** form **/
+form {
+  margin-inline: auto;
+  margin-top: 50px;
+  padding: 30px 20px;
+  width: 320px;
+  border-radius: 7px;
+  backdrop-filter: blur(5px);
+  background-color: rgba(228, 226, 236, 0.952);
+  overflow: hidden;
+}
+
+/** input, placeholder **/
+input, 
+::placeholder {
+  padding: 8px 10px;
+  margin: 3px 8px 16px 8px;
+  background-color: white;
+  border: 0px transparent;
+  border-radius: 5px;
+  color: rgb(11, 10, 12);
+  font-size: 16px;
+  z-index: 1;
+  width: 90%;
+}
+
+/** button **/
+button {
+  display: block;
+  width: 96%;
+  border: none;
+  background-color: #04AA6D;
+  padding: 8px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+  margin: 3px 8px 16px 8px;
+}
+
